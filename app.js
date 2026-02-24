@@ -4,7 +4,7 @@ const quotesObj = {
     "“Success is not in what you have, but who you are.”",
     "“Dream big and dare to fail.”",
     "“Do something today that your future self will thank you for.”",
-    "“Push yourself, because no one else is going to do it for you.”"
+    "“Push yourself, because no one else is going to do it for you.”",
   ]
 };
 
