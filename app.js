@@ -31,9 +31,9 @@ const loadingSpinner = document.getElementById("loadingSpinner");
 const spinnerContainer = document.getElementById("spinnerContainer");
 
 const messages = [
-  "Dialing the procrastination hotline… standby."
-  "Consulting my inner wisdom (still buffering)…"
-  "Task approved by the Office of Laziness 😴"
+  "Dialing the procrastination hotline… standby.",
+  "Consulting my inner wisdom (still buffering)…",
+  "Task approved by the Office of Laziness 😴",
   "Done! The universe giggled in approval."
 ];
 
