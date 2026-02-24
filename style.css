@@ -1,0 +1,107 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(124, 130, 210);
+    color: white;
+    background-image: url("./ios-13-stock-ipados-dark-green-black-background-amoled-ipad-2048x2048-794.jpg");
+    background-size:cover;
+}
+.box1{
+   box-shadow: 2px 2px 10px red;
+    height: 400px;
+    width: 400px;
+    margin:auto;
+    margin-top:80px;
+    padding:20px;
+    background-color: black;
+}
+.on{
+    margin-left:70px;
+    margin-top:60px;
+    font-size: larger;
+    color:brown;
+}
+.opt{
+    width: 200px;
+    height: 40px;
+    border:none;
+    border-radius: 10px;
+    background-color: brown;
+   padding-left:10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.inp{
+    margin-left:70px;
+    margin-top:40px;
+}
+#quote{
+    margin-left: 30px;
+    margin-top:50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgba(0, 255, 255, 0.731);
+    text-decoration:underline
+}
+.btn{
+    border-radius: 10px;
+    height: 40px;
+    width: 90px;
+   background-color: brown;
+    cursor: pointer;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+@keyframes left {
+    from{
+        transform: translateX(-1000px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+.box1{
+    animation: left 2s ease-out 0s alternate backwards;
+}
+/* Styling for the spinner */
+.spinner {
+  border: 4px solid #f3f3f3; /* Light grey */
+  border-top: 4px solid #00f5a0; /* Green color for the spinner */
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin: 20px auto;
+}
+
+/* Spinner Animation */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Styling for the status messages */
+#statusContainer {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+  color: #00f5a0;
+  margin-top: 20px;
+}
+
+/* Typing effect for each message */
+.status-text {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid #00f5a0; /* Blinking cursor effect */
+  animation: typing 2s steps(30) 1s 1 normal forwards, blink 0.75s step-end infinite;
+}
+
+/* Typing animation */
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+/* Blinking cursor */
+@keyframes blink {
+  50% { border-color: transparent; }
+}

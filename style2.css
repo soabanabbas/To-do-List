@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    background-image: url("./ios-13-stock-ipados-dark-green-black-background-amoled-ipad-2048x2048-794.jpg");
+    background-size: cover;
+}
+.box1{
+    border-radius: 10px;
+    height: 500px;
+    width: 400px;
+    overflow-y: auto;
+    margin: auto;
+    margin-top:40px;
+    padding-left: 30px;
+    padding-top: 40px;
+    box-shadow: 2px 2px 10px purple;
+}
+.h1{
+    text-decoration: underline;
+    color: aquamarine;
+}
+.on{
+    height: 20px;
+    width: 250px;
+    border-radius: 40px;
+    padding-left: 30px;
+    
+}
+.btn{
+    border-radius: 40px;
+    height: 30px;
+    width: 100px;
+    background-color:aqua;
+}
+.f{
+    margin:20px;
+    color:bisque
+}
+.hi{
+    margin-left:20px;
+    background-color: red;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      cursor: pointer;
+      margin-left: 10px;
+}
+
