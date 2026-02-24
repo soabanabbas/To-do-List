@@ -31,10 +31,10 @@ const loadingSpinner = document.getElementById("loadingSpinner");
 const spinnerContainer = document.getElementById("spinnerContainer");
 
 const messages = [
-  "Dialing the procrastination hotline… standby.",
-  "Consulting my inner wisdom (still buffering)…",
-  "Task approved by the Office of Laziness 😴",
-  "Done! The universe giggled in approval."
+  "Hold tight, we’re summoning productivity…",
+"Loading awesomeness… almost done!",
+"Feeding the unicorns your tasks are riding 🦄",
+"Tasks incoming — dreams loading…"
 ];
 
 function typeMessage(message, callback) {
