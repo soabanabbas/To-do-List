@@ -32,8 +32,7 @@ const spinnerContainer = document.getElementById("spinnerContainer");
 
 const messages = [
   "Hold tight, we’re summoning productivity…",
-"Loading awesomeness… almost done!",
-"Feeding the unicorns your tasks are riding 🦄",
+
 "Tasks incoming — dreams loading…"
 ];
 
