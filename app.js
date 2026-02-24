@@ -31,11 +31,10 @@ const loadingSpinner = document.getElementById("loadingSpinner");
 const spinnerContainer = document.getElementById("spinnerContainer");
 
 const messages = [
-  "Connecting to Elon Musk...",
-  "Waiting for Approval...",
-  "Call rejected from Sam Altman😬",
-  "Trying Mark zukarburg",
-  "Output Recived"
+  "Dialing the procrastination hotline… standby."
+  "Consulting my inner wisdom (still buffering)…"
+  "Task approved by the Office of Laziness 😴"
+  "Done! The universe giggled in approval."
 ];
 
 function typeMessage(message, callback) {
